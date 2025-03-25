@@ -24,9 +24,20 @@ Division: 2.5
 ## Bonus!
 
 If you'd like to try get a bit more fancy, use the `input()` function to get the user to manually add the two values instead of assigning them to the variables in your code.
-Find out more about the `input()` function by clicking [here](https://www.w3schools.com/python/ref_func_input.asp).
+Find out more about the `input()` function by clicking [here](https://www.w3schools.com/python/ref_func_input.
 
 # 2. Modulus and Exponentiation
+
+Write a Python program that takes a number and prints:
+
+The remainder when divided by 3 (using the modulus operator %)
+The number raised to the power of 2 (using the exponentiation operator **)
+
+# 3. Odd or Even
+
+Write a Python program that checks if a number is odd or even.
+Use the modulus operator and an if statement. 
+
 
 Write a Python program that takes a number and prints:
 
@@ -45,7 +56,7 @@ Number raised to the power of 2: 49
 If you'd like to try get a bit more fancy, use the `input()` function to get the user to manually add the two values instead of assigning them to the variables in your code.
 Find out more about the `input()` function by clicking [here](https://www.w3schools.com/python/ref_func_input.asp).
 
-# 3. Odd or Even
+ #3. Odd or Even
 
 Write a Python program that checks if a number is odd or even.
 Use the modulus operator and an if statement.
