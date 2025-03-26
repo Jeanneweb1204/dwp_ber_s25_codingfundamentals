@@ -132,7 +132,7 @@ The number is: 3
 
 # Bonus Questions (Optional)
 
-# 7. FizzBuzz
+c
 
 Write a Python program that prints the numbers from 1 to 20.
 But for multiples of 3, print "Fizz" instead of the number,

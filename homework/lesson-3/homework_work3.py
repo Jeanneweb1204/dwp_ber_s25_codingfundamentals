@@ -2,6 +2,8 @@
 
 num1= 12
 num2= 6 
+print("The first number:",num1)
+print("The second number:",num2)
 add= num1 + num2
 sub= num1 - num2 
 mult= num1 * num2 
@@ -11,12 +13,15 @@ print("substraction:", sub)
 print("multiplication:", mult)
 print("division:", div)
 
+
+
 # 2. Modulus and Exponentiation
 x= 4
+print("The number is:",x)
 remainder= x % 3
 raised= x ** 2 
 print("modulus:" ,remainder)
-print("exponential:" ,raised)
+print("exponentiation:" ,raised)
 
  #3. Odd or Even
 
@@ -30,8 +35,8 @@ else:
 # 4. Compare Two Numbers 
 a= 30
 b= 60
-print(a)
-print(b)
+print("The first number is:",30)
+print("The second number is:",60)
 if a > b: 
     print("{a} is greater than {b}")
 elif b > a: 
@@ -49,11 +54,30 @@ while count <= 10:
 # 6. Multiplication Table
 
 n= 32
-print(n)
+print("The number is:",n)
 for i in range (1,11):
-    i=n*i
-    print(i)
+    print(f"{n} x {i} = {n * i}")
 
+# 7. FizzBuzz
+for t in range (1,21):
+    if t % 3==0 and t % 5==0:
+        print("FizzBuzz")
+    elif t % 3==0:
+        print("Fizz")
+    elif t % 5==0:
+        print("Buzz")
+    else:
+        print(t)
+
+# 8. Leap year
+
+p=int (input("enter a year:2020"))
+if (p % 4==0 and p % 100==0 and p % 400==0 )or( p % 400==0) or (p % 4==0 and p %100!=0):
+    print(f"The year is a leap year")
+elif p % 100==0 and p % 400 !=0 :
+    print(f"The year is not a leap year")
+else:
+    print(p)
 
 
 
