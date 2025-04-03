@@ -33,28 +33,33 @@ else:
     print("The number is odd")
 
 # 4. Compare Two Numbers 
-a= 30
-b= 60
-print("The first number is:",30)
-print("The second number is:",60)
-if a > b: 
-    print("{a} is greater than {b}")
-elif b > a: 
-    print("{b} is greater than {a}")
+input1=input("enter number:")
+converted_input1=int(input1)
+input2=input("enter number :")
+converted_input2=int(input2)
+print("The first number is:",converted_input1)
+print("The second number is:",converted_input2)
+if converted_input1 > converted_input2: 
+    print("{converted_input1} is greater than {converted_input2}")
+elif converted_input2 > converted_input1: 
+    print("{converted_input2} is greater than {converted_input1}")
 else:
     print("The two are equal")
 
 # 5. Print Numbers 1 to 10 
 
+print("5. Print Numbers 1 to 10")
 count= 1
 while count <= 10:
     print(count)
-    count=count +1 
+    count=count +1.5
+
+
 
 # 6. Multiplication Table
 
-n= 32
-print("The number is:",n)
+input6=input("a multiplication table")
+converted_input6=int(input6)
 for i in range (1,11):
     print(f"{n} x {i} = {n * i}")
 
@@ -70,14 +75,15 @@ for t in range (1,21):
         print(t)
 
 # 8. Leap year
-
-p=int (input("enter a year:2020"))
-if (p % 4==0 and p % 100==0 and p % 400==0 )or( p % 400==0) or (p % 4==0 and p %100!=0):
-    print(f"The year is a leap year")
-elif p % 100==0 and p % 400 !=0 :
-    print(f"The year is not a leap year")
+print("Leap  Year")
+input10=input("enter an year")
+converted_input10=int(input10)
+if (converted_input10 % 100==0 and converted_input10 % 400==0 ):
+    print(converted_input10,"The year is a leap year")
+elif converted_input10 % 4==0 and converted_input10 % 100 !=0 :
+    print(converted_input10,"The year is  a leap year")
 else:
-    print(p)
+    print(converted_input10,"The year is not a leap year")
 
 
 
