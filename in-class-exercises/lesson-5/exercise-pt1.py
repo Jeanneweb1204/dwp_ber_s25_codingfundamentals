@@ -10,6 +10,7 @@ Write a function `greeting` that takes 2 arguments (first_name and last_name) an
 
 
 
+
 '''
 EXERCISE 2
 
@@ -19,7 +20,7 @@ The number has a default value of 2.
 For example, if the character is 'X' and the number is 4, the function should return "XXXX."
 '''
 
-# solution for exercise 2 👇🏽
+# solution for exercice 2
 
 
 

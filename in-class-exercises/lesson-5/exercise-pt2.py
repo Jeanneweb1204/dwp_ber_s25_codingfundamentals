@@ -9,3 +9,17 @@ Create a simple dice roll simulator where you use the randint function to simula
 '''
 
 # solution for exercise 4 👇🏽
+from random import randint
+def generate_number(first_number,last_number):
+    generate_number=randint(first_number,last_number)
+    return generate_number 
+
+random_number=generate_number(1,6)
+print("Random number:"+ str(random_number))
+
+# solution 4
+from random import randint
+def random_number():
+    return randint(1, 6)
+a=random_number()
+print(a)
