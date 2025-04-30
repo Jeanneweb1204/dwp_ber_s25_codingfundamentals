@@ -22,3 +22,4 @@ def fruit_remain(fruit_picked,fruit_quota):
 fruit_remain(45,87)
 fruit_remain(23,34)
 fruit_remain(30,30)
+print(fruit_remain)
